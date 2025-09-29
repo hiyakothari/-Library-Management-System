@@ -20,14 +20,6 @@ A desktop application for managing library operations including book inventory, 
 - **JDBC**: Java Database Connectivity for database operations
 - **Java 8+**: Core programming language
 
-## Prerequisites
-
-Before running this application, make sure you have:
-
-- Java Development Kit (JDK) 8 or higher
-- MySQL Server (5.7 or higher)
-- MySQL Connector/J (JDBC Driver)
-
 
 ## Database Schema
 
@@ -87,52 +79,4 @@ Before running this application, make sure you have:
 2. View all currently borrowed books with user details and due dates
 3. Click **Refresh** to update the list
 
-## Project Structure
 
-```
-library-management-system/
-├── src/
-│   └── LibraryManagementSystem.java
-├── lib/
-│   └── mysql-connector-java-8.x.x.jar (not included in repo)
-├── database_setup.sql
-├── .gitignore
-└── README.md
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Future Enhancements
-
-- [ ] Fine calculation for overdue books
-- [ ] Book reservation system
-- [ ] Export reports to PDF/Excel
-- [ ] User authentication and role-based access
-- [ ] Email notifications for due dates
-- [ ] Book category/genre classification
-- [ ] Advanced search filters
-- [ ] Dashboard with statistics
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/library-management-system](https://github.com/yourusername/library-management-system)
-
-## Acknowledgments
-
-- Java Swing documentation
-- MySQL documentation
-- JDBC tutorials
